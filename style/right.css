@@ -1,0 +1,90 @@
+.summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-title {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.specific-scores {
+    width: 80%;
+}
+
+.topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 3rem;
+}
+
+.topic-score {
+    font-weight: 600;
+    padding-right: 0.5rem;
+}
+
+.topic-out-of {
+    font-weight: 500;
+    color: gray;
+}
+
+.topics {
+    font-weight: 700;
+    padding: 0 5rem 0 1rem;
+}
+
+.reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+    padding-right: 6rem;
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+    padding-right: 6rem;
+}
+
+.topic-reaction {
+    background-color: hsl(0, 100%, 97%);
+}
+
+.topic-memory {
+    background-color: hsl(39, 100%, 97%);
+}
+
+.topic-verbal {
+    background-color: hsl(166, 100%, 97%);
+}
+
+.topic-visual {
+    background-color: hsl(234, 85%, 97%);
+}
+
+.button {
+    border: none;
+    border-radius: 30px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    height: 3rem;
+    width: 80%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background-color: hsl(224, 30%, 17%);
+    cursor: pointer;
+}
